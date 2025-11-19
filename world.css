@@ -1,1 +1,56 @@
-/* Add your own styles */
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b4d61;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#controls {
+  text-align: center;
+  margin: 20px;
+}
+
+input[type="search"] {
+  padding: 6px 10px;
+  width: 220px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 6px 12px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #eaecef;
+}
